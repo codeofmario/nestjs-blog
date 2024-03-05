@@ -21,7 +21,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "migration:create": "typeorm-ts-node-esm migration:generate -d dist/common/config/db.config.js",
     "migration:run": "typeorm-ts-node-esm migration:run -d dist/common/config/db.config.js",
-    "db:seed": "ts-node ./node_modules/typeorm-extension/dist/cli/index.js seed -d dist/common/config/db.config.js"
+    "db:seed": "ts-node ./node_modules/typeorm-extension/dist/cli/index.js seed -d src/common/config/db.config.ts"
   },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",

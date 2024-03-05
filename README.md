@@ -22,17 +22,7 @@ npm install
 ### create environment variables file
 rename **.env.example** file  into **.env**
 
-### build project
-```console
-npm run build
-```
-
-### run migrations
-```console
-npm run migration:run
-```
-
-### create seeds [optional]
+### create seed data [optional]
 ```console
 npm run db:seed
 ```
